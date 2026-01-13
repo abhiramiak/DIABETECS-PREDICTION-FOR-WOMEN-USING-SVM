@@ -12,34 +12,34 @@ The proposed solution is a Predictive Web Application User Interface aimed at en
 
 1. Data Collection & Dataset Overview
 
-The model uses a structured medical dataset containing eight clinically significant attributes, including women-specific factors:
-1.Pregnancies
-2.Glucose
-3.Blood Pressure
-4.Skin Thickness
-5.Insulin
-6.Body Mass Index (BMI)
-7.Diabetes Pedigree Function
-8.Age
+The model uses a structured medical dataset containing eight clinically significant attributes, including women-specific factors:</br>
+ 1.Pregnancies</br>
+ 2.Glucose</br>
+ 3.Blood Pressure</br>
+ 4.Skin Thickness</br>
+ 5.Insulin</br>
+ 6.Body Mass Index (BMI)</br>
+ 7.Diabetes Pedigree Function</br>
+ 8.Age
 
 2. Data Preprocessing
 
-To ensure high-quality input for model learning:
-Missing and zero values are handled appropriately
-Feature scaling (standardization) is applied to normalize different data ranges
-Clean data is prepared for model training
+To ensure high-quality input for model learning:</br>
+- Missing and zero values are handled appropriately</br>
+- Feature scaling (standardization) is applied to normalize different data </br>
+- Clean data is prepared for model training
 
 3. Model Training
 
-The dataset is split into training and testing sets (typically 70–80% for training and 20–30% for testing)
-The Support Vector Machine (SVM) algorithm is trained using the training data
-SVM is well-suited for binary classification problems (Diabetic vs. Non-Diabetic)
-The model learns to identify patterns that distinguish diabetic and non-diabetic cases
+The dataset is split into training and testing sets (typically 70–80% for training and 20–30% for testing)</br>
+- The Support Vector Machine (SVM) algorithm is trained using the training data</br>
+- SVM is well-suited for binary classification problems (Diabetic vs. Non-Diabetic)</br>
+- The model learns to identify patterns that distinguish diabetic and non-diabetic cases
 
-4.  Deployment Using Streamlit
-The final trained model is deployed using Streamlit
-Users enter health details through an intuitive web interface
-The backend processes the input and displays prediction results in real time
+4.  Deployment Using Streamlit</br>
+- The final trained model is deployed using Streamlit</br>
+- Users enter health details through an intuitive web interface</br>
+- The backend processes the input and displays prediction results in real time
 
 
 
