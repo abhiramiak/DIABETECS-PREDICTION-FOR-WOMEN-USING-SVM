@@ -37,6 +37,7 @@ The dataset is split into training and testing sets (typically 70–80% for trai
 - The model learns to identify patterns that distinguish diabetic and non-diabetic cases
 
 4.  Deployment Using Streamlit</br>
+- After training in Colab , we save the model using pickle.dump(). This creates a file named trained_model.sav </br>
 - The final trained model is deployed using Streamlit</br>
 - Users enter health details through an intuitive web interface</br>
 - The backend processes the input and displays prediction results in real time
